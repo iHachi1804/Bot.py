@@ -1,4 +1,3 @@
-import os
 import discord
 from discord.ext import commands
 import asyncio
@@ -87,8 +86,4 @@ async def ip(ctx):
     await ctx.send(embed=embed)
 
 # --- Ejecutar bot ---
-TOKEN = os.getenv("TOKEN")  # Leemos el token desde variable de entorno
-if TOKEN is None:
-    print("❌ ERROR: No se encontró la variable de entorno TOKEN.")
-else:
-    bot.run(TOKEN)
+bot.run("MTQwOTk3Nzc3NjM5MTQ1ODgyNg.Gz8c7D.7asqSHOrIM7BPbilHqCzTjzJITpMMMXi11i_wg")
