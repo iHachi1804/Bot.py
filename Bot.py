@@ -86,4 +86,5 @@ async def ip(ctx):
     await ctx.send(embed=embed)
 
 # --- Ejecutar bot ---
-bot.run("MTQwOTk3Nzc3NjM5MTQ1ODgyNg.Gz8c7D.7asqSHOrIM7BPbilHqCzTjzJITpMMMXi11i_wg")
+bot.run("TOKEN")
+
